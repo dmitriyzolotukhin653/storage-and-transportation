@@ -1,0 +1,14 @@
+.title {
+  text-align: center;
+  line-height: 1;
+}
+
+.title_h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.title_h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}

@@ -1,0 +1,53 @@
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+
+  border-radius: 10px;
+  background-color: #29a052;
+  transition: all 0.5s ease;
+}
+
+.listItem_inCar {
+  background-color: #34a6d7;
+}
+
+.listItem_transferred {
+  background-color: #d78234;
+}
+
+.listItem__text {
+  flex: 1;
+  word-break: break-all;
+  transition: all 0.3s ease;
+}
+
+.listItem__iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem__icon {
+  display: block;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.listItem__icon_revers {
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+}
+
+.listItem__icon:hover {
+  transform: translateY(-2px);
+}
+
+.listItem__icon_revers:hover {
+  transform: translateY(-2px) rotate(180deg);
+}
