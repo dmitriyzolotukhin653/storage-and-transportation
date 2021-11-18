@@ -12,6 +12,7 @@ const Input = ({ placeholder = "add todo", value, onChange, edit, ...props }) =>
 
   return (
     <input
+      data-testid="input"
       className={classNames("input", {
         input_edit: edit,
       })}
